@@ -1,4 +1,4 @@
-public class sample2 {
+public class Chomu {
     public static void main(String [] args){
         System.out.println("bye");
     }
