@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "sample2",
+            "request": "launch",
+            "mainClass": "sample2",
+            "projectName": "Java-DSA_6a2a763f"
+        },
+        {
+            "type": "java",
+            "name": "sample",
+            "request": "launch",
+            "mainClass": "sample",
+            "projectName": "Java-DSA_6a2a763f"
+        },
+        {
+            "type": "java",
             "name": "Merge_sort",
             "request": "launch",
             "mainClass": "Merge_sort",
