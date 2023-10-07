@@ -1,4 +1,5 @@
 import java.util.*;
+import java.util.Queue;
 public class Binary_Tree{
     public class Node{
         int val;
@@ -160,5 +161,22 @@ public class Binary_Tree{
         InOrder(node.left);
         System.out.print(node.val + " ");
         InOrder(node.right);
+    }
+
+    public void LevelOrder(){
+        Queue <Node> q = new LinkedList<>();
+        q.add(root);
+        while(!q.isEmpty()){
+            Node nn = q.remove();       //remove first
+            System.out.println(nn.val + " ");
+
+            if(nn.left != null){
+                q.add(nn.left);
+            }
+
+            if(nn.right != null){
+                q.add(nn.right);
+            }
+        }
     }
 }

@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Intro",
+            "request": "launch",
+            "mainClass": "Intro",
+            "projectName": "Java-DSA_6a2a763f"
+        },
+        {
+            "type": "java",
+            "name": "Wave_print",
+            "request": "launch",
+            "mainClass": "Wave_print",
+            "projectName": "Java-DSA_6a2a763f"
+        },
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
+            "mainClass": "Inheritence.Client",
+            "projectName": "Java-DSA_6a2a763f"
+        },
+        {
+            "type": "java",
             "name": "sample2",
             "request": "launch",
             "mainClass": "sample2",
